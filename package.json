@@ -19,7 +19,8 @@
     "sqlite3": "^4.0.6"
   },
   "bin": {
-    "jssnippet": "./index.js",
-    "jstest": "./test.js"
+    "jssnippet": "./cli/index.js",
+    "jstest": "./cli/test.js",
+    "file-chars-count": "./cli/file_chars_count.js"
   }
 }
