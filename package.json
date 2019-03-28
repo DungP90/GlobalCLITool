@@ -1,0 +1,22 @@
+{
+  "name": "GlobalCLITool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "commander": "^2.19.0"
+  },
+  "bin": {
+    "jssnippet": "./index.js",
+    "jstest":"./test.js"
+  }
+
+}
